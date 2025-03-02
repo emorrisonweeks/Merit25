@@ -2,10 +2,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="merit25.css">
     <title>Emily Morrison Weeks</title>
+    <link rel="favicon" type="image/png" href="images/emwlogofavicon.png"/>
 </head>
 <body>
+    <!--TOP NAV-->
+    <div class="head">
+        <div class="topnav" id="myTopnav">
+            <a href="javascript:voide(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+            <a href="#" class="active">Portfolio</a>
+            <a href="personalstatement.html">Personal Statement</a>
+            <a href="https://www.emoweeksdesign.com/">Website</a>
+        </div>
+    </div>
     This is my body of work.
-    <script src="./merit25.js"></script>
+    <script>
+        function myFunction(){
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += "responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+
+    
 </body>
 </html>
