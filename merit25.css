@@ -1,19 +1,18 @@
-/* this is my css */ 
+/* general css */ 
 html{
     box-sizing: border-box;
 }
-
-.page_container{
-    padding:2rem;
-}
-
 
 h1 {
     font-family: "Amatic SC", sans-serif;
     font-weight: 700;
     font-style: normal;
       }
-
+    
+/*main gallery*/
+.page_container{
+    padding:2rem;
+}
 .portfoliogallery {
     display:grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -35,4 +34,10 @@ h1 {
 
 .portfoliogallery a:hover{
     filter:grayscale(75%)
+}
+
+/*to make images responsive on project pages*/
+.responsive{
+    max-width: 100%;
+    height: auto;
 }
