@@ -8,6 +8,8 @@ h1 {
     font-weight: 700;
     font-style: normal;
       }
+
+
     
 /*main gallery*/
 .page_container{
@@ -36,9 +38,11 @@ h1 {
     filter:grayscale(75%)
 }
 
-/*to make images responsive on project pages*/
+/*for project pages*/
+
 .responsive{
     max-width: 100%;
     height: auto;
 }
+
 
