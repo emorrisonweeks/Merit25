@@ -10,7 +10,12 @@ h1 {
       }
 
 
-    
+/*navigation*/
+.head{
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}   
 /*main gallery*/
 .page_container{
     padding:2rem;

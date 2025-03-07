@@ -19,3 +19,45 @@ img{
     flex-wrap: wrap;
 
 }
+
+/*navigation*/
+.head{
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 2rem;
+    margin: 2rem;
+}  
+
+/*haven*/
+.havenh1{
+    font-family: "a-day-without-sun-text", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.havenh2{
+    font-family: "a-day-without-sun-text", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 36;
+    color: #a31600;
+}
+
+.havenbold{
+    font-family: "a-day-without-sun-text", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24;
+    color: #a31600;
+}
+
+.havencontainer{
+    margin: 90px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #00424969;
+    border-radius: 25px;
+    
+}
+
