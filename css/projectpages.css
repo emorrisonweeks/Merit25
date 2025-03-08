@@ -20,6 +20,12 @@ img{
     padding:5px;
 }
 
+body{
+    font-family: "poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
 .menus{
     display: flex;
     flex-wrap: wrap;
@@ -68,3 +74,16 @@ img{
     
 }
 
+/*Sabrina*/
+.sabrinacontainer{
+    margin: 90px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #6895817b;
+    border-radius: 25px;
+}
+.sabrinavid{
+    display:block;
+    margin: auto;
+    padding:5px;
+}

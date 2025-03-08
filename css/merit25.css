@@ -4,11 +4,16 @@ html{
 }
 
 h1 {
-    font-family: "Amatic SC", sans-serif;
-    font-weight: 700;
-    font-style: normal;
+    font-family: "roca", sans-serif;
+    font-weight: 400;
+    font-style: italic;
       }
 
+p{
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
 
 /*navigation*/
 .head{
