@@ -4,10 +4,16 @@ html{
 }
 
 h1 {
-    font-family: "roca", sans-serif;
-    font-weight: 400;
-    font-style: italic;
-      }
+        font-family: "poppins", sans-serif;
+        font-weight: 200;
+        font-style: normal;
+    }
+      
+h2{
+    font-family: "poppins", sans-serif;
+        font-weight: 200;
+        font-style: normal;
+}
 
 p{
     font-family: "poppins", sans-serif;
@@ -15,12 +21,20 @@ p{
     font-style: normal;
 }
 
+
 /*navigation*/
 .head{
     display:flex;
     justify-content: space-between;
     align-items: flex-end;
 }   
+
+.topnav{
+    font-family: "poppins", sans-serif;
+        font-weight: 200;
+        font-style: normal;
+}
+
 /*main gallery*/
 .page_container{
     padding:2rem;
