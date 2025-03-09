@@ -52,6 +52,14 @@ img{width: 60%;
     margin: 2rem;
 }  
 
+.topnav a{
+    color:#33939a;
+}
+
+.topnav a:hover{
+    color: #d64b21;
+
+}
 /*haven*/
 
 .havencontainer{
@@ -81,8 +89,16 @@ img{width: 60%;
     margin: auto;
     padding:5px;
 }
-.sabrinabold, .sabrinah1, .sabrinah2{
-    color:#8d6a73;
+.sabrinah1{
+    font-family: "la-parisienne-script-regular", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+    color: #4e4b4c;
+}
+
+.sabrinabold,.sabrinah2{
+    color:#6e4c5b;
 }
 
 /*Kinetic*/
@@ -108,10 +124,18 @@ img{width: 60%;
     background-color: #e667a756;
     border-radius: 25px;
 }
-.curiobold, .curioh1, .curioh2{
+.curiobold,.curioh2{
     color:#962783;
 }
 
+.curioh1{
+    font-family:"fatfrank", sans-serif;
+    font-weight:400;
+    font-size:200px;
+    font-style:normal;
+    color:#e667a6;
+}
+ 
 /*tjoes*/
 .traderjoefigma{
         display:block;

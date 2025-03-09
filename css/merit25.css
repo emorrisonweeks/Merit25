@@ -34,11 +34,20 @@ body{
 }   
 
 .topnav{
-    font-family: "poppins", sans-serif;
+        font-family: "poppins", sans-serif;
         font-weight: 200;
         font-style: normal;
+        
 }
 
+.topnav a{
+    color:#33939a;
+}
+
+.topnav a:hover{
+    color: #d64b21;
+
+}
 /*main gallery*/
 .portfoliotext_container{
     text-align: center;
