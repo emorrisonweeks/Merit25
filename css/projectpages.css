@@ -107,6 +107,12 @@ img{width: 60%;
         margin: auto;
         padding:5px;
 }
+.kinetich1{
+    font-family: "english", sans-serif;
+    font-weight: 400;
+    font-size: 100px;
+    font-style: normal;
+}
 
 .kineticcontainer{
     margin: 90px;
