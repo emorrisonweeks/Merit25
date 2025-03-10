@@ -75,6 +75,8 @@ img{width: 60%;
     color:#6a1a20;
 }
 
+.havenlogo{width: 25%;
+}
 
 /*Sabrina*/
 .sabrinacontainer{
@@ -93,7 +95,7 @@ img{width: 60%;
     font-family: "la-parisienne-script-regular", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 100px;
+    font-size: 65px;
     color: #4e4b4c;
 }
 
@@ -137,7 +139,7 @@ img{width: 60%;
 .curioh1{
     font-family:"fatfrank", sans-serif;
     font-weight:400;
-    font-size:200px;
+    font-size:100px;
     font-style:normal;
     color:#e667a6;
 }
@@ -162,8 +164,6 @@ img{width: 60%;
 .tjoeslogo{width: 25%;
 }
 
-
-
 /*artwalk*/
 .artwalkcontainer{
     margin: 90px;
@@ -181,6 +181,9 @@ img{width: 60%;
     display:block;
     margin: auto;
     padding:5px;
+}
+
+.artwalklogo{width: 25%;
 }
 
 /*reel*/
