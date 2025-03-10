@@ -2,20 +2,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Statement</title>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" href="merit25.css">
+    <link rel="stylesheet" type="text/css" href="../css/projectpages.css">
+    <link rel="shortcut icon" type="image/png" href="../Images/logofavicon.png">
+    <link rel="stylesheet" href="https://use.typekit.net/par1shg.css">
+    <title>Trader Joe's Redesign Web Design</title>
+
 </head>
-   <!--TOP NAV-->
-   <div class="head">
-    <div class="topnav" id="myTopnav">
-        <a href="javascript:voide(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-        </a>
-        <a href="index.html">Portfolio</a>
-        <a href="#" class="active">Personal Statement</a>
-        <a href="https://www.emoweeksdesign.com/">Website</a>
-    </div>
+    <body>
+        <!--TOP NAV-->
+        <div class="head">
+            <div class="animatedlogo">
+                <img class="emwlogo" src="../Images/emwanimatedlogo.gif" alt="animated EMW logo with winking hedgehog" align=center>
+            </div>
+            <div class="topnav" id="myTopnav">
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                </a>
+                <a href="../index.html" target="_blank" style="text-decoration: none;">Portfolio</a>
+                <a href="../personalstatement.html" target="_blank" style="text-decoration: none;">Personal Statement</a>
+                <a href="https://www.emoweeksdesign.com/" target="_blank" style="text-decoration: none;">Website</a>
+            </div>
+        </div>
+        <!--TOP NAV FUNCTION-->
+        <script>
+            function myFunction(){
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += "responsive";
+                } else {
+                    x.className = "topnav";
+                }
+            }
+        </script>
+
+    <img src="Images/headshot.png">
+    <h2 class="statementh2">Hi, my name is Emily Morrison Weeks</h2>
+     <p>My art and design background is multidisciplinary, beginning with drawing, painting, and ceramics. 
+        During my undergraduate coursework, my relationship with design branched out into the theatre, designing 
+        costumes, makeup, sets, and props. Eventually, I found that designing posters for theatre and film 
+        companies connected my passion for the performing arts with my interest in graphic art and design.
+    </p>
+    <p>
+        This lead me to MCAD’s MAGWD program, where I have fallen in love with typography and branding and rekindled my love of illustration 
+        (earning a CE certificicate in illustration from MCAD along the way). Currently, I'm delighting in  discovering the intersection of psychology 
+        and design through my UX coursework. I believe that the marriage of graphic and web design can help me grow into a versatile designer and help 
+        open doors to numerous professional opportunities.
+    </p>
+    <p>
+        As I near the end of the MAGWD program I can envision multiple possible career paths for myself, either in graphic or UX design. Through my design work moving 
+        forward, I hope to connect my artistic roots with the exciting possibilities technology offers, creating graphic and web design solutions that feel
+        personal and work to connect people with each other in meaningful ways. 
+    </p>
+  </div>
 </div>
-<body>
-    This is where my statement goes.
+    
+</div>
 </body>
 </html>
