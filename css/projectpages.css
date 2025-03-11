@@ -1,4 +1,6 @@
-
+html {
+    scroll-behavior: smooth;
+}
 
 h2{
     text-align: center;
@@ -60,6 +62,30 @@ img{width: 85%;
     color: #d64b21;
 
 }
+
+#to-top{
+    position:fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 40px;
+    font-size: 30px;
+    color:#33939a;
+    font-weight:bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0);
+    transition: bottom 200ms, transform 200ms;
+}
+
+#to-top:hover{
+    bottom: 35px;
+}
+
+#to-top.show{
+    transform: scale(1);
+}
+
 /*haven*/
 
 .havencontainer{

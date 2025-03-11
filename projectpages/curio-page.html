@@ -8,6 +8,8 @@
     <link rel="shortcut icon" type="image/png" href="../Images/logofavicon.png">
     <link rel="stylesheet" href="https://use.typekit.net/par1shg.css">
     <link rel="stylesheet" href="https://use.typekit.net/zqj6bwx.css">
+    <script src="https://kit.fontawesome.com/a389c60d1f.js" crossorigin="anonymous">
+    </script>
     <title>CURIO Publication Design</title>
 
 </head>
@@ -38,6 +40,11 @@
         </script>
     <!--Objective Section-->
     <div class="curiocontainer">
+        <a href="#">
+            <div id="to-top">
+                <i class="fa-solid fa-angle-up"></i>
+            </div>
+        </a>
     <div class="objectiveandinspiration">
         <h1 class="curioh1">CURIO</h1>
         <h2 class="curioh2">OBJECTIVE AND INSPIRATION</h2>
@@ -120,4 +127,15 @@
     </p>
 </div>
 </body>
+<script>
+    document.addEventListener('scroll', () => {
+        const toTopButton = document.querySelector('#to-top');
+
+        if(window.scrollY > 200) {
+            toTopButton.classList.add('show')
+        } else {
+            toTopButton.classList.remove('show');
+        }
+    })
+</script>
 </html>
