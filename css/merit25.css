@@ -99,6 +99,13 @@ body{
 }
 
 /*personal statement*/
+.statementcontainer{
+    margin: 90px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 25px;
+}
+
 .headshot{
     width:25%;
 }
