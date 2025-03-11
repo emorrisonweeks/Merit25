@@ -39,6 +39,14 @@
                 }
             }
         </script>
+
+<!--TO TOP ARROW-->
+<a href="#">
+    <div id="to-top">
+        <i class="fa-solid fa-angle-up"></i>
+    </div>
+</a>
+
     <!--Objective Section-->
     <div class="sabrinacontainer">
     <div class="objectiveandinspiration">
@@ -55,8 +63,8 @@
             To establish the tone and setting of the film and present its title, key production people, and cast, utilizing conceptual visuals and sound. In this case, I was motivated by exploring and reimagining what could have been done in terms of storytelling in the original title sequence.
         </p>
         <img src="../Images/sabrinamood.png" class="responsive">
-      
     </div>
+
     <!--Process Section-->
   <div class="process">
     <h2 class="sabrinah2">PROCESS | STORYBOARD</h2>
@@ -81,14 +89,26 @@
          </p>
        
   </div>
+</div>  
 </div>
-    
-</div>
-<!--footer-->
+<!--FOOTER-->
 <div class="footer">
     <p>
         © Emily Morrison Weeks 2025
     </p>
 </div>
 </body>
+
+<!--TO TOP SCRIPT-->
+<script>
+    document.addEventListener('scroll', () => {
+        const toTopButton = document.querySelector('#to-top');
+
+        if(window.scrollY > 200) {
+            toTopButton.classList.add('show')
+        } else {
+            toTopButton.classList.remove('show');
+        }
+    })
+</script>
 </html>

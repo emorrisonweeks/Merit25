@@ -40,7 +40,15 @@
                 }
             }
         </script>
-    
+
+<!--TO TOP ARROW-->
+<a href="#">
+    <div id="to-top">
+        <i class="fa-solid fa-angle-up"></i>
+    </div>
+</a>
+
+<!--OBJECTIVE SECTION-->
     <div class="projectpage">
     <div class="havencontainer">
     <div class="objectiveandinspiration">
@@ -80,6 +88,8 @@
             something that feels cool and alluring yet well worn and comfortable.
         </p>
     </div>
+
+<!--PROCESS SECTION-->
   <div class="process">
     <h2 class="havenh2">PROCESS | LOGO</h2>
     <img src="../Images/havenprocess.png" alt="logo sketches for haven" class="responsive">
@@ -106,6 +116,8 @@
         black and white signage or on the cover of the menu.
     </p>
   </div>
+
+  <!--OUTCOME SECTION-->
   <div class="outcome">
         <h2 class="havenh2">OUTCOME | SIGNAGE</h2>
         <img src="../Images/finalhavenoutdoorchalkboard.png" alt="outdoor chalk board signage for haven" class="responsive">
@@ -152,6 +164,7 @@
 </div>
     
 </div>
+
 <!--footer-->
 <div class="footer">
     <p>
@@ -160,4 +173,17 @@
 </div>
 </body>
 </div>
+
+<!--TO TOP SCRIPT-->
+<script>
+    document.addEventListener('scroll', () => {
+        const toTopButton = document.querySelector('#to-top');
+
+        if(window.scrollY > 200) {
+            toTopButton.classList.add('show')
+        } else {
+            toTopButton.classList.remove('show');
+        }
+    })
+</script>
 </html>

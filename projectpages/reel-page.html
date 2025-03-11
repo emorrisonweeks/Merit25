@@ -26,6 +26,7 @@
                 <a href="https://www.emoweeksdesign.com/" target="_blank" style="text-decoration: none;">Website</a>
             </div>
         </div>
+        
         <!--TOP NAV FUNCTION-->
         <script>
             function myFunction(){
@@ -37,6 +38,14 @@
                 }
             }
         </script>
+
+                <!--TO TOP ARROW-->
+<a href="#">
+    <div id="to-top">
+        <i class="fa-solid fa-angle-up"></i>
+    </div>
+</a>
+
     <!--Objective Section-->
     <div class="reelcontainer">
     <div class="objectiveandinspiration">
@@ -69,7 +78,26 @@
     </p>
   </div>
 </div>
-    
+</div>
+
+<!--footer-->
+<div class="footer">
+    <p>
+        © Emily Morrison Weeks 2025
+    </p>
 </div>
 </body>
+
+<!--TO TOP SCRIPT-->
+<script>
+    document.addEventListener('scroll', () => {
+        const toTopButton = document.querySelector('#to-top');
+
+        if(window.scrollY > 200) {
+            toTopButton.classList.add('show')
+        } else {
+            toTopButton.classList.remove('show');
+        }
+    })
+</script>
 </html>

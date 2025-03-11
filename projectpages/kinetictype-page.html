@@ -39,6 +39,14 @@
                 }
             }
         </script>
+
+        <!--TO TOP ARROW-->
+<a href="#">
+    <div id="to-top">
+        <i class="fa-solid fa-angle-up"></i>
+    </div>
+</a>
+
     <!--Objective Section-->
     <div class="kineticcontainer">
     <div class="objectiveandinspiration">
@@ -75,4 +83,16 @@
     
 </div>
 </body>
+<!--TO TOP SCRIPT-->
+<script>
+    document.addEventListener('scroll', () => {
+        const toTopButton = document.querySelector('#to-top');
+
+        if(window.scrollY > 200) {
+            toTopButton.classList.add('show')
+        } else {
+            toTopButton.classList.remove('show');
+        }
+    })
+</script>
 </html>

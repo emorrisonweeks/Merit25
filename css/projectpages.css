@@ -51,7 +51,7 @@ img{width: 85%;
     justify-content: space-between;
     align-items: flex-end;
     padding: 2rem;
-    margin: 2rem;
+    margin: 2rem; 
 }  
 
 .topnav a{
@@ -62,6 +62,8 @@ img{width: 85%;
     color: #d64b21;
 
 }
+
+/* to top arrow*/
 
 #to-top{
     position:fixed;

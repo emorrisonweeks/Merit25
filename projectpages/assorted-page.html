@@ -23,6 +23,7 @@
                 <a href="https://www.emoweeksdesign.com/" target="_blank" style="text-decoration: none;">Website</a>
             </div>
         </div>
+
         <!--TOP NAV FUNCTION-->
         <script>
             function myFunction(){
@@ -34,6 +35,14 @@
                 }
             }
         </script>
+        
+           <!--to top arrow-->
+           <a href="#">
+            <div id="to-top">
+                <i class="fa-solid fa-angle-up"></i>
+            </div>
+        </a>
+
     <h1>Assorted Projects</h1>
     <div class="objective and inspiration">
         <h2>Objective and Inspiration</h2>
@@ -91,4 +100,15 @@
 </div>
 </div>
 </body>
+<script>
+    document.addEventListener('scroll', () => {
+        const toTopButton = document.querySelector('#to-top');
+
+        if(window.scrollY > 200) {
+            toTopButton.classList.add('show')
+        } else {
+            toTopButton.classList.remove('show');
+        }
+    })
+</script>
 </html>

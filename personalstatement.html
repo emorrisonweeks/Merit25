@@ -38,6 +38,14 @@
             }
         </script>
 
+<!--TO TOP ARROW-->
+<a href="#">
+    <div id="to-top">
+        <i class="fa-solid fa-angle-up"></i>
+    </div>
+</a>
+
+<!--HEADSHOT AND PERSONAL STATEMENT-->
     <img src="Images/headshot.png">
     <h2 class="statementh2">Hi, my name is Emily Morrison Weeks</h2>
      <p>My art and design background is multidisciplinary, beginning with drawing, painting, and ceramics. 
@@ -60,11 +68,25 @@
 </div>
     
 </div>
-<!--footer-->
+
+<!--FOOTER-->
 <div class="footer">
     <p>
         © Emily Morrison Weeks 2025
     </p>
 </div>
 </body>
+
+<!--TO TOP SCRIPT-->
+<script>
+    document.addEventListener('scroll', () => {
+        const toTopButton = document.querySelector('#to-top');
+
+        if(window.scrollY > 200) {
+            toTopButton.classList.add('show')
+        } else {
+            toTopButton.classList.remove('show');
+        }
+    })
+</script>
 </html>
