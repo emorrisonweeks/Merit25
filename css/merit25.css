@@ -81,6 +81,21 @@ body{
     filter:grayscale(75%)
 }
 
+/* to top arrow*/
 
+#to-top{
+    position:fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 40px;
+    font-size: 30px;
+    color:#33939a;
+    font-weight:bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0);
+    transition: bottom 200ms, transform 200ms;
+}
 
 
