@@ -98,4 +98,7 @@ body{
     transition: bottom 200ms, transform 200ms;
 }
 
-
+/*personal statement*/
+.headshot{
+    width:50%;
+}
