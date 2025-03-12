@@ -26,7 +26,21 @@ body{
     background-color: #faf1d9;
 }
 
-
+/*Portfolio Page Header*/
+.merith1{
+    font-family: "quincy-cf", serif;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 36px;
+    color:#33939a;
+}
+.merith2{
+    font-family: "quincy-cf", serif;
+    font-weight: 850;
+    font-style: italic;
+    font-size:26px;
+    color:#33939a;
+}
 /*navigation*/
 .head{
     display:flex;
