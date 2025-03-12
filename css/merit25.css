@@ -41,28 +41,69 @@ body{
     font-size:26px;
     color:#33939a;
 }
-/*navigation*/
+/*responsive navigation*/
 .head{
     display:flex;
     justify-content: space-between;
     align-items: flex-end;
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }   
 
 .topnav{
-        font-family: "poppins", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-        
+    overflow: hidden;       
 }
 
 .topnav a{
     color:#33939a;
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-right: 30px;
+}
+
+.topnav a.active{
+   color:#c3807c;
+    
 }
 
 .topnav a:hover{
     color: #d64b21;
-
 }
+
+.topnav .icon{
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .topnav a{
+        display: none;
+    }
+    .topnav a.icon{
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .topnav.responsive {
+        position: relative;
+    }
+    .topnav.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+        color: #33939a;
+    }
+    .topnav.responsive a{
+        float:none;
+        display: block;
+        text-align: left;
+        color:#33939a;
+    }
+}
+
 /*main gallery*/
 .portfoliotext_container{
     text-align: center;
