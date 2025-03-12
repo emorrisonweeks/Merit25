@@ -44,7 +44,7 @@ body{
 /*responsive navigation*/
 /* to top arrow*/
 .emwlogo{
-    max-height: 175px;
+    max-width: 200px;
 }
 
 #to-top{
