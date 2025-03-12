@@ -85,6 +85,18 @@ img{width: 85%;
     display: none;
 }
 
+.topnavresponsive a{
+    color:#33939a;
+}
+
+.topnavresponsive a:hover{
+    color: #d64b21;
+}
+
+.topnavresponsive a.active{
+    color:#c3807c;
+}
+
 @media screen and (max-width: 768px) {
     .topnav a{
         display: none;
