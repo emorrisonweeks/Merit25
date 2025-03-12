@@ -121,6 +121,14 @@ body{
     background-color: #e9958fe9;
 }
 
+.statementh2{
+    font-family: "quincy-cf", serif;
+    font-weight: 850;
+    font-style: italic;
+    font-size:26px;
+    color:#33939a;
+}
+
 .headshot{
     width:25%;
 }
