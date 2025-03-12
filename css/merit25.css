@@ -162,6 +162,9 @@ body{
     background-color: #e9aaa5;
 }
 
+.headshot{
+    border-radius: 50%;
+}
 .statementh2{
     font-family: "quincy-cf", serif;
     font-weight: 850;
