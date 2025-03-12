@@ -47,6 +47,10 @@ img{width: 85%;
 }
 
 /*responsive navigation*/
+.emwlogo{
+    max-height: 175px;
+}
+
 .head{
     display:flex;
     justify-content: space-between;
