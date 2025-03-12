@@ -42,11 +42,12 @@ body{
     color:#33939a;
 }
 
-/* to top arrow*/
+/*animated logo*/
 .emwlogo{
     max-width: 200px;
 }
 
+/* to top arrow*/
 #to-top{
     position:fixed;
     bottom: 30px;
@@ -62,7 +63,7 @@ body{
     transition: bottom 200ms, transform 200ms;
 }
 
-/*responsive navigation*/
+/*top navigation*/
 .head{
     display:flex;
     justify-content: space-between;
@@ -97,6 +98,7 @@ body{
     display: none;
 }
 
+/*hamburger menu or responsive top navigation menu details*/
 @media screen and (max-width: 768px) {
     .topnav a{
         display: none;
