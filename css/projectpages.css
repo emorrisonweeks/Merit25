@@ -9,6 +9,7 @@ h2{
 
 h1{
     text-align: center;
+    margin: auto;
 }
 
 p{
@@ -211,6 +212,7 @@ img{width: 85%;
     font-weight:400;
     font-size:150px;
     font-style:normal;
+    margin: auto;
     color:#e667a6;
 }
  
