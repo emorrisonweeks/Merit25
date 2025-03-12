@@ -242,3 +242,24 @@ img{width: 85%;
     margin: auto;
     padding:5px;
 }
+
+/*P5.js*/
+.p5container{
+    margin: 90px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 25px;
+    background-color:#5c72ff80;
+}
+
+.p5bold, .p5h2{
+    color:#2e1968;
+}
+
+.p5h1{
+    font-family: "lores-12", sans-serif;
+    font-weight: 700;
+    font-size: 60;
+    font-style: normal;
+    color:#2e1968;
+}
