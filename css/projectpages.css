@@ -32,6 +32,12 @@ body{
     background-color: #faf1d9;
 }
 
+ol{
+    max-width: 1140px;
+    margin:auto;
+    padding: 20px;
+}
+
 .menus{
     display: flex;
     flex-wrap: wrap;
