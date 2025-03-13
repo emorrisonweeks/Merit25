@@ -91,8 +91,16 @@ img{width: 85%;
     display: none;
 }
 
+.topnavresponsive{
+    overflow: hidden;
+    background-color: #fcce84;
+    position: relative;
+}
 .topnavresponsive a{
     color:#33939a;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
 }
 
 .topnavresponsive a:hover{
