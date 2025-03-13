@@ -13,7 +13,7 @@ h1{
 }
 
 p{
-    max-width:1000px;
+    max-width:1140px;
     margin: auto;
     padding: 20px;
 }
@@ -47,7 +47,7 @@ body{
 img{width: 85%;
 }
 
-@media screen and (max-width: 1140px) {
+@media screen and (max-width: 1440px) {
 /*iframe responsiveness for 16:9 Youtube and Figma aspect ratios*/
 .iframecontainer {
     position: relative;
