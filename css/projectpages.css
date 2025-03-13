@@ -92,7 +92,6 @@ img{width: 85%;
 }
 
 .topnavresponsive{
-    overflow: hidden;
     background-color: #fcce84;
     position: relative;
 }
@@ -108,7 +107,7 @@ img{width: 85%;
 }
 
 .topnavresponsive a.active{
-    color:#c3807c;
+    color:#e5706a;
 }
 
 @media screen and (max-width: 768px) {
