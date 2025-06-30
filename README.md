@@ -1,3 +1,3 @@
-# Merit25
-Welcome! This is my Github repo for the page I am submitting for the 2025 Merit scholarship.
+# VanDerlip25
+Welcome! This is my Github repo for my 2025 Van Derlip Award submission at MCAD.
  
